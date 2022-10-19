@@ -4,7 +4,7 @@
   font-family: "Alfa Slab One";
   font-size: 48px;
   padding-top: 20px;
-  position: absolute;
+  position: fixed;
   height: 6%;
   width: 100%;
 }
