@@ -1,4 +1,5 @@
 .header {
+
   align-items: center;
   background-color: #f7ff96;
   border: 1px solid black;
@@ -42,4 +43,5 @@
 span {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
+  background-color: black;
 }
