@@ -1,27 +1,26 @@
 .landing-page {
-  display: flex;
   background-color: #24f8ab;
+  display: flex;
 }
 
 .img {
+  align-items: center;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #24f8ab;
   opacity: 0.5;
 }
 
 .phrase {
-  font-size: 55px;
   display: flex;
+  font-size: 55px;
   justify-content: center;
   margin: 100px;
 }
 
 .slogan {
-  font-size: 65px;
   display: flex;
+  font-size: 65px;
   justify-content: center;
   margin: 100px;
 }

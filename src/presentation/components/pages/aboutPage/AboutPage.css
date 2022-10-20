@@ -1,0 +1,26 @@
+.about-page {
+  background-color: #24f8ab;
+  display: flex;
+}
+
+.black-container {
+  background-color: black;
+  border-radius: 15%;
+  display: flex;
+  height: 1000px;
+  justify-content: center;
+  width: 75%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.img {
+  box-sizing: border-box;
+  opacity: 0.5;
+}
