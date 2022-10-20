@@ -1,18 +1,28 @@
 .footer {
+  bottom: 0;
   background-color: black;
   font-family: "Alfa Slab One";
-  font-size: 32px;
-  text-align: center;
+  font-size: 48px;
+  padding-top: 20px;
+  position: fixed;
+  height: 6%;
+  width: 100%;
 }
 
 .span1 {
+  align-items: left;
   color: white;
-  display: flex;
-  justify-content: start;
+  float: left;
+  margin-left: 25px;
+  padding: 10px;
+  vertical-align: middle;
 }
 
 .span2 {
+  align-items: right;
   color: white;
-  display: flex;
-  justify-content: end;
+  float: right;
+  margin-right: 25px;
+  padding: 10px;
+  vertical-align: middle;
 }
