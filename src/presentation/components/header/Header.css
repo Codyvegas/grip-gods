@@ -1,0 +1,45 @@
+.header {
+  align-items: center;
+  background-color: #f7ff96;
+  border: 1px solid black;
+  border-radius: 45px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Alfa Slab One";
+  height: 260px;
+  width: 70%;
+  margin: 75px auto 0;
+  top: 75px;
+  padding: 0 50px;
+  z-index: 999999;
+}
+
+.header > h1 {
+  font-size: 96px;
+  margin-bottom: 50px;
+}
+
+.header > img {
+  border: 1px solid black;
+  border-radius: 45px;
+  height: inherit;
+}
+
+.header-page-btns {
+  color: #237d26;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 32px;
+  height: 100%;
+}
+
+.header-page-btns :nth-child(2) {
+  padding-left: 25px;
+}
+
+span {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
