@@ -10,13 +10,14 @@
   justify-content: center;
   background-color: #24f8ab;
   opacity: 0.5;
+  z-index: -1;
 }
 
 .phrase {
   font-size: 55px;
   display: flex;
   justify-content: center;
-  margin: 100px;
+  margin: 400px;
 }
 
 .slogan {
@@ -24,4 +25,15 @@
   display: flex;
   justify-content: center;
   margin: 100px;
+}
+
+.black-box {
+  background-color: black;
+  border-radius: 10%;
+  display: flex;
+  height: 1800px;
+  justify-content: center;
+  margin: auto;
+  width: 1500px;
+  z-index: 190;
 }

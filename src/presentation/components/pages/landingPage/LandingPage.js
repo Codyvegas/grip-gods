@@ -11,9 +11,11 @@ function LandingPage() {
           <br /> created, owned, and run by two vegas guys who love golf.
         </strong>
       </div>
+      <div className="black-box"></div>
       <div className="img">
         <img src={golfclub} alt="" />
       </div>
+
       <div className="phrase">
         <strong>{phrase}</strong>
       </div>
