@@ -1,14 +1,14 @@
 .header {
   align-items: center;
   background-color: #f7ff96;
-  border: 1px solid black;
+  border: 5px solid black;
   border-radius: 45px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   font-family: "Alfa Slab One";
   height: 260px;
-  width: 70%;
+  width: 85%;
   margin: 75px auto 0;
   top: 75px;
   padding: 0 50px;
@@ -42,5 +42,4 @@
 span {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
-  background-color: black;
 }
