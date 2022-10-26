@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../presentation/components/header/Header";
 import Footer from "../presentation/components/footer/Footer";
-import LandingPage from "../presentation/components/pages/landingPage/LandingPage";
+import AppRoutes from "./Routes";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <LandingPage />
+      <AppRoutes />
       <Footer />
     </div>
   );
