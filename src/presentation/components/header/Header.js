@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import mainLogo from "../../../assets/icons/main_logo.jpg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,9 +9,15 @@ function Header() {
       <img src={mainLogo} alt=""></img>
       <h1>grip gods</h1>
       <div className="header-page-btns">
-        <span>follow us</span>
-        <span>drip god</span>
-        <span>about us</span>
+        <Link to="/follow-us">
+          <span>follow us</span>
+        </Link>
+        <Link to="/drip-gods">
+          <span>drip gods</span>
+        </Link>
+        <Link to="about-us">
+          <span>about us</span>
+        </Link>
       </div>
     </div>
   );
