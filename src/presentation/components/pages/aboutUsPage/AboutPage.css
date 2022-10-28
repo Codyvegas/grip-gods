@@ -1,26 +1,50 @@
 .about-page {
   background-color: #24f8ab;
-  display: flex;
 }
 
 .black-container {
   background-color: black;
-  border-radius: 15%;
+  border-radius: 5%;
+  height: 1500px;
+  margin: auto;
+  width: 1800px;
+  margin-bottom: 200px;
   display: flex;
-  height: 1000px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.p {
+  font-size: 40px;
+  color: white;
+  z-index: 1;
+}
+
+.strong {
+  color: white;
+  font-size: 60px;
+}
+
+.strong-black {
+  color: black;
+  font-size: 80px;
+}
+
+.about-us {
+  display: flex;
   justify-content: center;
-  width: 75%;
+  margin: 150px;
 }
 
-h1 {
-  font-size: 30px;
+.our-mission-container {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
-p {
-  font-size: 20px;
-}
-
-.img {
-  box-sizing: border-box;
-  opacity: 0.5;
+.who-container {
+  margin-top: 100px;
+  width: 80%;
 }

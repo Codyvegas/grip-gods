@@ -1,5 +1,4 @@
 import "./LandingPage.css";
-import golfclub from "../../../../assets/icons/golf_club.png";
 import { phrase } from "./constants";
 
 function LandingPage() {
@@ -12,10 +11,6 @@ function LandingPage() {
         </strong>
       </div>
       <div className="black-box"></div>
-      <div className="img">
-        <img src={golfclub} alt="" />
-      </div>
-
       <div className="phrase">
         <strong>{phrase}</strong>
       </div>

@@ -9,15 +9,9 @@ function Header() {
       <img src={mainLogo} alt=""></img>
       <h1>grip gods</h1>
       <div className="header-page-btns">
-        <Link to="/follow-us">
-          <span>follow us</span>
-        </Link>
-        <Link to="/drip-gods">
-          <span>drip gods</span>
-        </Link>
-        <Link to="about-us">
-          <span>about us</span>
-        </Link>
+        <Link to="/follow-us">follow us</Link>
+        <Link to="/drip-gods">drip gods</Link>
+        <Link to="about-us">about us</Link>
       </div>
     </div>
   );
