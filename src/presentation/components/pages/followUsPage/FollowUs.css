@@ -5,7 +5,7 @@
 .follow-us-header {
   display: flex;
   justify-content: center;
-  margin: 150px;
+  margin: 100px;
   color: black;
   font-size: 80px;
 }
@@ -20,7 +20,7 @@
   height: 1500px;
   margin: auto;
   margin-bottom: 200px;
-  width: 1800px;
+  width: 1600px;
 }
 
 .instagram-link {
