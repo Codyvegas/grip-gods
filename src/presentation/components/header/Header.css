@@ -25,14 +25,30 @@
   transition-duration: 0.4s;
 }
 
+.links {
+  background-color: #ed6b45;
+  border: none;
+  border-radius: 50%;
+  color: #156047;
+  font-size: 35px;
+  width: 200px;
+  cursor: pointer;
+}
+
 .logo-btn {
   background: none;
   border: none;
   border-radius: 45px;
+  margin-top: 5px;
 }
 
 .logo-btn:hover {
   cursor: pointer;
+}
+
+.header-page-btns:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
 }
 
 .header-page-btns {
