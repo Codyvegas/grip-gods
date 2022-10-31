@@ -20,14 +20,23 @@
   margin-bottom: 50px;
 }
 
-.header > img {
-  border: 1px solid black;
+.logo-btn > img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.logo-btn {
+  background: none;
+  border: none;
   border-radius: 45px;
-  height: inherit;
+}
+
+.logo-btn:hover {
+  cursor: pointer;
 }
 
 .header-page-btns {
-  color: #237d26;
+  color: black;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
