@@ -7,7 +7,7 @@ function LandingPage() {
       <div className="slogan">
         <strong>
           golf club re-gripping done by the people for the people.
-          <br /> created, owned, and run by two vegas guys who love golf.
+          <br /> created, owned, and run by two vegas guys who just love golf!
         </strong>
       </div>
       <div className="black-box"></div>

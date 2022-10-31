@@ -8,13 +8,16 @@
   font-size: 55px;
   justify-content: center;
   margin: 150px;
+  text-align: center;
 }
 
 .slogan {
-  display: flex;
   font-size: 65px;
-  justify-content: center;
   margin: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 95%;
 }
 
 .black-box {

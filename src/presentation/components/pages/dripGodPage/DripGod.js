@@ -1,5 +1,5 @@
 import main from "../../../../assets/icons/main_logo.jpg";
-import "./DripGods.css";
+import "./DripGod.css";
 
 function DripGod() {
   return (
