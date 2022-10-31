@@ -9,32 +9,54 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 1500px;
+  height: 1600px;
   margin: auto;
   margin-bottom: 200px;
-  width: 1800px;
+  width: 1600px;
 }
 
-.drip-god {
+.drip-god-header {
   display: flex;
-  font-size: 60px;
+  font-size: 80px;
   justify-content: center;
-  margin: 150px;
+  margin: 100px;
 }
 
 .get-drippy {
   color: white;
   font-size: 40px;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   width: 60%;
 }
 
-.img-div > img {
+.img-div {
   border-radius: 5%;
-  transform: scale(0.75);
+  transform: scale(0.8);
 }
 
-.jewelry-imgs {
-  flex-direction: row;
+.img-div > img {
+  border-radius: 5%;
+}
+
+.jewelry-img-container {
+  display: flex;
+  justify-content: space-around;
+  transform: scale(1.2);
+  margin-bottom: 30px;
+  color: white;
+}
+
+.jewelry-img-container > img {
+  border: 1px solid #fed559;
+  border-radius: 17%;
+}
+
+.pricing-container {
+  color: #fc5854;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-top: 20px;
+  transform: scale(1.2);
 }
