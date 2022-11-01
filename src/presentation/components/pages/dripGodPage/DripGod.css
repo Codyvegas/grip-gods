@@ -41,11 +41,11 @@
 }
 
 .jewelry-img-container {
+  color: white;
   display: flex;
   justify-content: space-around;
-  transform: scale(1.2);
   margin-bottom: 30px;
-  color: white;
+  transform: scale(1.2);
 }
 
 .jewelry-img-container > img {
@@ -56,8 +56,8 @@
 .pricing-container {
   color: #fc5854;
   display: flex;
-  justify-content: space-around;
   font-size: 30px;
+  justify-content: space-around;
   margin-top: 20px;
   transform: scale(1.2);
 }
