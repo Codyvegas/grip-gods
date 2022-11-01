@@ -1,38 +1,45 @@
 .order-form {
+  align-items: center;
   background-color: #81ff8d;
   border-radius: 30%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  height: 1300px;
+  height: 1390px;
+  justify-content: center;
   margin-left: 50px;
   padding: 100px;
   width: 80%;
+  border: 5px solid blue;
 }
 
 .form-field {
   display: flex;
   flex-direction: column;
-  width: 50%;
   font-size: 30px;
+  width: 50%;
 }
 
 .order-form > h1 {
-  width: 100%;
   font-size: 50px;
   margin-left: 300px;
+  width: 100%;
+  text-decoration: underline;
 }
 
 .pricing-container {
-  width: 50%;
   color: black;
-  margin-top: 50px;
+  width: 50%;
 }
 
 .pricing-container > h2 {
   color: black;
-  font-size: 40px;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.radio-group > h3 {
+  text-decoration: underline;
+  color: black;
 }
 
 .price-list {
@@ -42,24 +49,25 @@
 .grip-details {
   display: flex;
   flex-direction: column;
-  width: 50%;
   font-size: 30px;
   margin-bottom: 50px;
+  width: 50%;
 }
 
-.grip-details > h3 {
+.grip-details > h2 {
   font-size: 40px;
+  text-decoration: underline;
 }
 
 .submit-btn > button {
-  color: black;
-  padding: 14px 32px;
-  font-size: 40px;
-  display: inline-block;
-  border-radius: 8px;
   border: 2px solid blue;
-  transition-duration: 0.4s;
+  border-radius: 8px;
+  color: black;
+  display: inline-block;
+  font-size: 40px;
   margin-top: 20px;
+  padding: 14px 30px;
+  transition-duration: 0.4s;
 }
 
 .submit-btn > button:hover {
@@ -69,12 +77,15 @@
 
 input[type="text"] {
   font-size: 30px;
+  font-family: "Alfa Slab One";
 }
 
 input[type="number"] {
   font-size: 30px;
+  width: 150px;
 }
 
 input[type="radio"] {
   zoom: 175%;
+  width: 50px;
 }

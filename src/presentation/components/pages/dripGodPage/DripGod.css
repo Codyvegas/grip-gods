@@ -38,6 +38,7 @@
 
 .img-div > img {
   border-radius: 5%;
+  border: 10px solid #fed559;
 }
 
 .jewelry-img-container {

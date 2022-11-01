@@ -17,12 +17,12 @@
 
 .header > h1 {
   font-size: 96px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .logo-btn > img:hover {
   transform: scale(1.2);
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
 }
 
 .links {

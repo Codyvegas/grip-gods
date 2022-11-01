@@ -18,13 +18,19 @@ function Header() {
       <h1>grip gods</h1>
       <div className="header-page-btns">
         <Link to="about-us">
-          <button className="links">about us</button>
+          <button className="links">
+            <span>about us</span>
+          </button>
         </Link>
         <Link to="/follow-us">
-          <button className="links">follow us</button>
+          <button className="links">
+            <span>follow us</span>
+          </button>
         </Link>
         <Link to="/drip-gods">
-          <button className="links">drip god</button>
+          <button className="links">
+            <span>drip god</span>
+          </button>
         </Link>
       </div>
     </div>
