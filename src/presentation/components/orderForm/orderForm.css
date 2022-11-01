@@ -1,6 +1,6 @@
 .order-form {
   background-color: #81ff8d;
-  border-radius: 10%;
+  border-radius: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,13 +16,11 @@
   flex-direction: column;
   width: 50%;
   font-size: 30px;
-  margin-bottom: 20px;
 }
 
 .order-form > h1 {
   width: 100%;
   font-size: 50px;
-  margin-top: -50px;
   margin-left: 300px;
 }
 
@@ -61,10 +59,22 @@
   border-radius: 8px;
   border: 2px solid blue;
   transition-duration: 0.4s;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .submit-btn > button:hover {
   background-color: blue;
   color: white;
+}
+
+input[type="text"] {
+  font-size: 30px;
+}
+
+input[type="number"] {
+  font-size: 30px;
+}
+
+input[type="radio"] {
+  zoom: 175%;
 }

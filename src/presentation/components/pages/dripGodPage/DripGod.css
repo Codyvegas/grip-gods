@@ -57,7 +57,9 @@
   color: #fc5854;
   display: flex;
   font-size: 30px;
-  justify-content: space-around;
+  gap: 75px;
+  justify-content: space-evenly;
+  margin-left: 90px;
   margin-top: 20px;
   transform: scale(1.2);
 }

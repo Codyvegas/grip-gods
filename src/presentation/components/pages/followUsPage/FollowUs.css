@@ -3,10 +3,10 @@
 }
 
 .follow-us-header {
+  color: black;
   display: flex;
   justify-content: center;
   margin: 100px;
-  color: black;
   font-size: 80px;
 }
 
@@ -16,7 +16,7 @@
   border-radius: 5%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   height: 1500px;
   margin: auto;
   margin-bottom: 200px;
@@ -25,69 +25,50 @@
 
 .instagram-link {
   display: flex;
-  justify-content: space-between;
   margin: 150px;
 }
 
 .twitter-link {
   display: flex;
-  justify-content: space-between;
   margin: 150px;
 }
 
 .facebook-link {
   display: flex;
-  justify-content: space-between;
   margin: 150px;
 }
 
 .linkedin-link {
   display: flex;
-  justify-content: space-between;
   margin: 150px;
 }
 
-.instagram-url {
-  color: white;
-  font-size: 45px;
-  text-decoration: underline;
-  padding-left: 50px;
-}
-
-.twitter-url {
-  color: white;
-  font-size: 45px;
-  text-decoration: underline;
-}
-
-.facebook-url {
-  color: white;
-  font-size: 45px;
-  text-decoration: underline;
-}
-
+.instagram-url,
+.twitter-url,
+.facebook-url,
 .linkedin-url {
   color: white;
   font-size: 45px;
+  margin-left: 150px;
   text-decoration: underline;
 }
 
 .instagram-logo {
-  border-radius: 50px;
+  border-radius: 70px;
   height: 200px;
 }
 
 .twitter-logo {
-  border-radius: 50px;
+  border-radius: 70px;
   height: 200px;
 }
 
 .facebook-logo {
-  border-radius: 50px;
+  border-radius: 70px;
   height: 200px;
 }
 
 .linkedin-logo {
-  border-radius: 50px;
+  border-radius: 70px;
   height: 200px;
 }
