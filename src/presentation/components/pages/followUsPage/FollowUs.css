@@ -17,58 +17,26 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 1500px;
+  height: 70%;
   margin: auto;
   margin-bottom: 200px;
-  width: 1600px;
+  width: 60%;
 }
 
-.instagram-link {
+.social-link {
   display: flex;
   margin: 150px;
+  align-items: center;
 }
 
-.twitter-link {
-  display: flex;
-  margin: 150px;
-}
-
-.facebook-link {
-  display: flex;
-  margin: 150px;
-}
-
-.linkedin-link {
-  display: flex;
-  margin: 150px;
-}
-
-.instagram-url,
-.twitter-url,
-.facebook-url,
-.linkedin-url {
+.social-url {
   color: white;
   font-size: 45px;
   margin-left: 150px;
   text-decoration: underline;
 }
 
-.instagram-logo {
-  border-radius: 70px;
-  height: 200px;
-}
-
-.twitter-logo {
-  border-radius: 70px;
-  height: 200px;
-}
-
-.facebook-logo {
-  border-radius: 70px;
-  height: 200px;
-}
-
-.linkedin-logo {
+.social-logo {
   border-radius: 70px;
   height: 200px;
 }

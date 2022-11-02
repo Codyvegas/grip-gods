@@ -5,29 +5,50 @@ import facebookIcon from "../../../../assets/icons/facebook_logo.jpg";
 import linkedInIcon from "../../../../assets/icons/linkedin_logo.jpg";
 
 function FollowUs() {
+  const socialLinks = [
+    {
+      img: instaIcon,
+      link: "https://www.instagram.com/gotgrips",
+    },
+    {
+      img: twitterIcon,
+      link: "https://www.twitter.com/gotgrips",
+    },
+    {
+      img: facebookIcon,
+      link: "https://www.facebook.com/gotgrips",
+    },
+    {
+      img: linkedInIcon,
+      link: "https://www.linkedin.com/gotgrips",
+    },
+  ];
+
+  //react render array homework (dannys example)
+
+  const renderSocialLinks = () => {
+    const socialRow = [];
+
+    for (let i = 0; i < socialLinks.length; i++) {
+      socialRow.push(
+        <div className="social-link">
+          <img className="social-logo" src={socialLinks[i].img} alt=""></img>
+          <p className="social-url">{socialLinks[i].link}</p>
+        </div>
+      );
+    }
+
+    return (
+      <div className="social-black-container">
+        <div className="black-container-content">{socialRow}</div>
+      </div>
+    );
+  };
+
   return (
     <div className="follow-us">
       <h1 className="follow-us-header">follow us</h1>
-      <div className="social-black-container">
-        <div className="black-container-content">
-          <div className="instagram-link">
-            <img className="instagram-logo" src={instaIcon} alt=""></img>
-            <p className="instagram-url">https://www.instagram.com/gotgrips</p>
-          </div>
-          <div className="twitter-link">
-            <img className="twitter-logo" src={twitterIcon} alt=""></img>
-            <p className="twitter-url">https://www.twitter.com/gotgrips</p>
-          </div>
-          <div className="facebook-link">
-            <img className="facebook-logo" src={facebookIcon} alt=""></img>
-            <p className="facebook-url">https://www.facebook.com/gotgrips</p>
-          </div>
-          <div className="linkedin-link">
-            <img className="linkedin-logo" src={linkedInIcon} alt=""></img>
-            <p className="linkedin-url">https://www.linkedin.com/gotgrips</p>
-          </div>
-        </div>
-      </div>
+      {renderSocialLinks()}
     </div>
   );
 }

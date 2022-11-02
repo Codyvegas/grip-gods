@@ -22,7 +22,10 @@
 
 .logo-btn > img:hover {
   transform: scale(1.2);
-  transition-duration: 0.5s;
+}
+
+.logo-btn > img {
+  transition: all 0.4s ease-in-out;
 }
 
 .links {
