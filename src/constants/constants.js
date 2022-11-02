@@ -1,7 +1,7 @@
-import instaIcon from "../../../../assets/icons/instagram_logo.jpg";
-import twitterIcon from "../../../../assets/icons/twitter_logo.jpg";
-import facebookIcon from "../../../../assets/icons/facebook_logo.jpg";
-import linkedInIcon from "../../../../assets/icons/linkedin_logo.jpg";
+import instaIcon from "../assets/icons/instagram_logo.jpg";
+import twitterIcon from "../assets/icons/twitter_logo.jpg";
+import facebookIcon from "../assets/icons/facebook_logo.jpg";
+import linkedInIcon from "../assets/icons/linkedin_logo.jpg";
 
 export const socialLinks = [
   {

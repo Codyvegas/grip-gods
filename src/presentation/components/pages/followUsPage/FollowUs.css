@@ -15,12 +15,12 @@
   background-color: black;
   border-radius: 5%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
-  height: 70%;
   margin: auto;
   margin-bottom: 200px;
-  width: 60%;
+  max-width: 1800px;
+  width: 50%;
 }
 
 .social-link {

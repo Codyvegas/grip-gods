@@ -16,11 +16,7 @@ function FollowUs() {
       );
     }
 
-    return (
-      <div className="social-black-container">
-        <div className="black-container-content">{socialRow}</div>
-      </div>
-    );
+    return <div className="social-black-container">{socialRow}</div>;
   };
 
   return (
